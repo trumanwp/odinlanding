@@ -1,0 +1,290 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    /* max-width: 1200px; */
+}
+
+
+.nav {
+    /* border: 2px solid blue; */
+    background-color: rgb(114, 162, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 15%; */
+    padding: 10px 5vw;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+
+
+
+
+.leftnav {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+    
+   
+}
+
+.rightnav {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 200px;
+}
+
+.headlinks {
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+/* test */
+
+.container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+/* sub section */
+
+.sub {
+    /* border: 2px solid red; */
+    display: flex;
+    /* padding: 10px 15%; */
+    padding: 10px 5vw;
+    height: 400px;
+    background-color: rgb(114, 162, 114);
+    color: white;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.subleft {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    flex: 1; /* Allow subleft to grow */
+    min-width: 200px; /* Ensure it doesn't shrink too much */
+    max-width: 400px;
+    margin-left: 100px;
+}
+
+.subright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px 0px;
+    flex: 1;
+    margin-right: 200px;
+    /* border: 2px solid red; */
+}
+
+.heading {
+    font-weight: 900px;
+    font-size: 48px;
+}
+
+.subtext {
+    color: rgb(230, 225, 225);
+    font-size: 18px;
+}
+
+.subbutton {
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    
+    /* border: 2px solid red; */
+}
+
+
+.subimage {
+    /* margin-left: 130px; */
+    display: flex;
+    flex: 1;
+    /* border: 2px solid red; */
+    /* width: 450px;
+    height: 275px; */
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    min-width: 150px;
+    border-radius: 5%;
+
+}
+
+/* info section */
+
+.infoimg {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 10%;
+}
+
+.infosec {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.infohead {
+    display: flex;
+    padding: 24px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.infosub {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info-item {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.info {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100px;   
+}
+
+/* Quote Section */
+
+.quotesec {
+    background-color: lightgrey;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    align-items: center;
+}
+
+.quote {
+    /* border: 2px solid blue; */
+    display: flex;
+    font-size: 36px;
+    max-width: 500px;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-weight: 900px;
+    
+    
+}
+
+
+.quoteauthor {
+    /* border: 2px solid green; */
+    display: flex;  
+    margin-left: auto;  
+    font-weight: bold;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ad section */
+
+.adsection {
+    /* border: 2px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 150px;
+
+}
+
+.adcontainer {
+    /* border: 2px solid red; */
+    background-color: lightblue;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    width: 70%;
+    
+    
+}
+
+.adinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.adheader {
+    font-weight: bold;
+}
+
+.adsub {
+    font-size: 12px;
+}
+
+
+.adbutton {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 8px 16px;
+    margin-left: auto;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 162, 114);
+    padding: 24px;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+}
